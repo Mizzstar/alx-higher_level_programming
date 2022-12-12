@@ -1,4 +1,4 @@
-!#/urs/bin/python3
+#!/urs/bin/python3
 
 def search_replace(my_list, serach, replace):
     """Replace all occurrences of an element by another in a new list."""
