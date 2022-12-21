@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """Define a class Square."""
 
 
@@ -8,7 +7,6 @@ class Square:
 
     def __init__(self, size=0, position=(0, 0)):
         """Initialize a new square.
-
         Args:
         size (int): The size of the new square.
         position (int, int): The position of new square.
@@ -40,7 +38,7 @@ class Square:
                         len(value) != 2 or
                         not all(isinstance(num, int) for num in value) or
                         not all (num >= 0 for num in value)):
-                    raise TypeError("position must be a tuple of 2 position integers")
+                    raise TypeError("position must be a tuple of 2 positive integers")
                 self.__position = value
 
                 def area(self):
