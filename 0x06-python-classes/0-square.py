@@ -1,6 +1,4 @@
-#!/usr/bin/python3
-
-<375@holbertonschool.com>
+#!/usr/bin/python
 """Define a class Square."""
 
 
