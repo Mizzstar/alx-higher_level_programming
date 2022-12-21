@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-
-<375@holbertonschool.com>
 """Define classes for a singly-linked list."""
 
 
@@ -60,7 +58,7 @@ def __init__(self, data, next_node=None):
                         if self.__head is None:
                             new.next_node = None
                             self.__head = new
-                        elifself.__head.data > value:
+                        elif self.__head.data > value:
                             new.next_node = self.__value
                             self.__head = new
                         else:
