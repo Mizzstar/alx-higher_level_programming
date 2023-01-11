@@ -28,5 +28,5 @@ def __init__(self, first_name, last_name, age):
         """
         if (type(attr) == list and
                 all(type(ele) == str for ele in attrs)):
-            return {k: getattr(self, k)}
+            return {k: getattr(self, k) for k in attrs if hasattr(self, k)}
         return self.__dict_
